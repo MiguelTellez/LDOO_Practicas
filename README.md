@@ -1,2 +1,2 @@
 # LSTI_1814774
-Clase de DOO LSTI
+Clase de LDOO LSTI
