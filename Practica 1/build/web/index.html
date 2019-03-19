@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Laboratorio de diseño orientado a objetos</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    body {
+        margin: 0;
+        font-family: Arial;
+    }
+    .topnav {
+        overflow: hidden;
+         background-color: #333;
+         text-align: center;
+    }
+     .topnav a{
+        float: center;
+        color: #f2f2f2;
+        padding: 50px 50px;
+        text-decoration: none;
+    }
+      .topnav a:hover {
+         background-color: #ddd;
+    }
+    
+
+       .topnav a.active {
+         background-color: #808080;
+    }
+    .vertical-menu {
+        width: 100px;
+    }
+
+    .vertical-menu a {
+         background-color: #eee;
+         display: block;
+         padding: 12px;
+         text-decoration: none;
+    }
+
+    .vertical-menu a.active {
+         background-color: #000000;
+         color: white;
+    }
+    </style> 
+    </head>
+    <body>
+        <div class="topnav">
+        <a class="active" href="#Barra">Barra</a>
+        <a href="#De">De</a>
+        <a href="#Navegacion">Navegacion</a>
+        </div>
+        <div class="vertical-menu">
+            <a href="#" class="active">Menu</a>
+            <a href="#">Opcion 1</a>
+            <a href="#">Opcion 2</a>
+            <a href="#">Opcion 3</a>
+        </div>
+       
+ 
+        <div>
+            <H1 align="center"><img src="tiger.jpg" alt="Tiger_II" height="340" width="300">
+        </div>
+            <H3 align="center">
+              <p>Tiger II es el nombre por el que se suele conocer un tanque pesado alemán <br> 
+              de la Segunda Guerra Mundial cuya última designación oficial alemana<br>
+              fue Panzerkampfwagen Tiger Ausf. B, a menudo abreviado como Tiger B.</p>
+              <textarea  rows="4" cols="50">
+                Esta es un textbox 
+              </textarea>
+        <div>
+            <input type="datetime-local" name ="Datetime picker" id ="314">
+        </div>
+        <div>
+             Mas sobre el Tiger II (Link)
+            <a href="https://es.wikipedia.org/wiki/Panzer_VI_Tiger_Ausf._B "> Aqui
+            </a>
+        </div>
+              
+              <div>
+                <select>
+                    <option value="Panzer I"> Panzer I</option>
+                    <option value="Panzer II">Panzer II</option>
+                    <option value="Panzer III">Panzer III</option>
+                    <option value="Panzer IV ">Panzer IV</option></select>
+              </div>
+        <div>
+              <button type="button" onclick="alert('Aceptada')">Aceptar</button>
+              <button type="button" onclick="alert('Cancelado')">Cancelar</button>
+        </div>
+        
+    </body>
+    
+    
+</html>
