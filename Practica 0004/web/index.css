@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<style>
+input[type=text], select {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+ 
+}
+table, tr, td {
+  border: 20px solid black;
+}
+body {background-color: coral;}
+input[type=submit] {
+  width: 30%;
+  background-color: #000000;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+body {
+ background-image: url("giphy.gif");
+ background-color: #cccccc;
+}
+table, th, td {
+  border: 1px solid black;
+}
+th {
+  text-align: left;
+}
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+input[type=submit]:hover {
+  background-color: #E0D9D8;
+}
+
+div {
+  border-radius: 5px;
+  
+  padding: 20px;
+}
+</style>
+
+</html>
